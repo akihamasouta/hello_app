@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+h1 {
+    color:red;
+    font-family:"メイリオ";
+    font-style:italic;
+    font-weight:900;
+    font-size:800%;
+    margin-top:1.5em;
+    margin-bottom:0em;
+    text-align:center;
+    }
+
+div {
+    text-align:center;
+    margin-top:5em;
+    }

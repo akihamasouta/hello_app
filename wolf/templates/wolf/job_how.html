@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<body>
+    <h1>{{title}}</h1>
+    <table>
+        {% for item in data %}
+        <form method="post" action="{% url 'sub_start'%}">
+        <tr>
+            <td>{{item.job}}</td>
+            <td><input type="number"></td>
+        </tr>
+        </form>
+        <tr><td></td><td>{{sum}}</td></tr>
+        {% endfor %}
+        <tr><td></td><td><input type="submit"></td></tr>
+    </table>
+</body>
+</html>

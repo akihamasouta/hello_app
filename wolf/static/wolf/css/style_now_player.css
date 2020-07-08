@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+h1 {
+    color:red;
+    font-size:5em;
+    text-align:center;
+    margin-top:1em;
+    border-bottom:2px solid red;
+    text-align:center;}
+p  {
+    color:red; 
+    font-size:2em;
+    }
+th {
+    border-bottom:1px solid red;
+    text-align:center;
+    }
+a:visited { 
+    color:red;
+    text-align:center;
+    }
+a:link {
+    color:red;
+    text-align:center;
+}
+table {
+    font-size:1.5em;
+    color:red;
+    text-align:center;
+    padding:auto;
+    clear:both;
+    }
+p#t {
+    text-align:right;
+    position:relative;
+    bottom:1em;
+    }

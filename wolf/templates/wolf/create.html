@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+    <link href="{% static 'wolf/css/style_create.css' %}" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="black">
+    <h1>{{title}}</h1>
+    <table>
+        <form action="{% url 'create' %}" method="post">
+        {% csrf_token %}
+        {{form.as_table}}
+        <tr><td></td><td><input class="e" type="submit" value="add"></td></tr>
+        </form>
+    </table>
+</body>
+</html>

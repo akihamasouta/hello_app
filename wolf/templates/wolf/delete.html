@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <link href="{% static 'wolf/css/style_delete.css' %}" type="text/css" rel="stylesheet">
+</head>
+<body bgcolor="black">
+    <h1>{{title}}</h1>
+    <table>
+    <form action="{% url 'delete' id %}" method="post">
+    {% csrf_token %}
+    <p>really?</p>
+    <tr><td id="i"></td><td><input type="submit" value="delete"></td><</tr>
+    </form>
+    </table>
+</body>
+</html>

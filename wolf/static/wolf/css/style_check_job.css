@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+h1 {
+    color:red;
+    text-align:center;
+    font-size:4em;
+    border-bottom:solid 2px red;
+    }
+
+a:visited {
+    font-size:2em;
+    text-align:center;
+    color:red;
+    }
+    
+a {
+    font-size:2em;
+    text-align:center;
+    color:red;
+    }

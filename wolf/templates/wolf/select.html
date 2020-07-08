@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <mata charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<body>
+    <h1>{{title}}</h1>
+    <p><a href="{% url 'add_job' %}"> ADD JOB </a></p>
+    <table>
+    <tr>
+        <th>job</th>
+        <th>number</th>
+    </tr>
+    {% for item in data %}
+
+
+    </table>
+    {% endfor %}
+</body>
+    </html>

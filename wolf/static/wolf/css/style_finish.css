@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+h1 {
+    color:red;
+    font-size:5em;
+    text-align:center;
+    border-bottom:2px solid red;
+    }

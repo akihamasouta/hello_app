@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+h1 {
+    color:red;
+    font-size:5em;
+    border-bottom:2px solid red;
+    text-align:center;
+    margin-top:1em;
+    }
+    
+table {
+    color:red;
+    font-size:3em;
+    margin-bottom:0em;
+    }
+input {
+    font-size:0.8em;
+    width:7em;
+    height:1em;
+    display:inline-block;
+    }
+.e {
+    background-color:red;
+    font-size:0.4em;
+    width:4em;
+    height:1.5em;
+    }

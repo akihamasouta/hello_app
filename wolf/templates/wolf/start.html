@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<link href="{% static 'wolf/css/style_start.css/' %}" rel="stylesheet" type="text/css">
+<title>人狼ゲーム</title>
+<!--kokonisyasinnwoharu-->
+</head>
+<body bgcolor="black">
+<h1 class="center">人狼ゲーム</h1>
+<div>
+    <a href="{% url 'player' %}">
+        <img src="../../static/wolf/images/start.png/" height=40 width=150　>
+    </a>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+     <link href="{% static '/wolf/css/style_how_many.css/' %}" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor='black'>
+    <h1>{{title}}</h1>
+    <p>{{msg}}</p>
+     <p>{{msg2}}</p>
+    <table>
+    <form action="{% url 'how_many' %}" method="POST">
+    {% csrf_token %}
+    {{form.as_table}}
+    <tr><td class="i">Sum</td><td>{{sums}}</td></tr>
+    <tr><td></td><td><input class="e" type="submit" value="ok"></td></tr>
+    </form>
+    </table>
+</body>
+</html>

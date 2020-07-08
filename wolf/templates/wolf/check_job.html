@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+    <link href="{% static 'wolf/css/style_check_job.css/' %}" type="text/css" rel="stylesheet">
+</head>
+<body bgcolor="black">
+    <h1>{{title}}</h1>
+    <h2>{{a}}</h2>
+    <table>
+    {% csrf_token %}
+    <tr><td><a href="../../look_job/{{data.id}}">{{data.name}}</a></td></tr>
+    </table>
+</body>
+</html>
