@@ -235,31 +235,4 @@ def finish(request):
     return render(request, 'wolf/finish.html', params)
 
     
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-    
-
-        
-
     

@@ -2,7 +2,6 @@
 from django.urls import path
 import wolf.views as view
 
-
 urlpatterns = [
         path('', view.start, name='start'),
         path('player/',view.now_player, name='player'),

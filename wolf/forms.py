@@ -2,7 +2,6 @@
 from django import forms
 from . models import Player_Name, Jobs, Postion
 
-
 class Add_Player_Form(forms.ModelForm):
     class Meta:
         model = Player_Name
